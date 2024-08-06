@@ -1,0 +1,14 @@
+numpy
+torch
+torchvision
+piq
+unittest
+tox
+livelossplot
+scikit-learn
+scikit-image
+matplotlib
+pandas
+tqdm
+scipy
+tensorflow
