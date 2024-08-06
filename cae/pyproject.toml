@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cae"
+version = "0.1.0"
+description = "A package for ACDS3 Objective 3 to build CAE."
+authors = [
+    {name = "Jingyi Liao", email = "jingyi.liao23@imperial.ac.uk"},
+    {name = "Yunjie Li", email = "yunjie.li23@imperial.ac.uk"},
+    {name = "Rui Li", email = "rl323@ic.ac.uk"},
+]
+readme = "README.md"
+license = {text = "LICENSE"}
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "pillow",
+    "livelossplot",
+    "IPython",
+    "scikit-learn",
+    "tensorflow",
+]
+requires-python = ">= 3.8"
+
+[tool.setuptools]
+py-modules = []
