@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convlstm"
+version = "0.1.0"
+description = "A package for ACDS3 Objective 1 to build Convolutional LSTM, train and predict wildfire data."
+authors = [
+    {name = "Yunjie Li", email = "yunjie.li23@imperial.ac.uk"},
+    {name = "Ruihan He", email = "rh323@ic.ac.uk"},
+    {name = "Rui Li", email = "rl323@ic.ac.uk"},
+]
+readme = "README.md"
+license = {text = "LICENSE"}
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "pillow",
+    "livelossplot",
+    "IPython",
+]
+requires-python = ">= 3.8"
+
+[tool.setuptools]
+py-modules = []
